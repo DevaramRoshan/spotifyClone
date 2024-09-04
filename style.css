@@ -1,0 +1,248 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+    background-image: url(./images/mainbackground.avif);
+}
+.header {
+  height:10vh;
+  width: 100vw;
+  background-color: black;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.logo {
+  padding: 20px;
+  margin-left: 5px;
+}
+.middle {
+  display: flex;
+  align-items: center;
+  padding: 20px 100px 20px 100px;
+}
+.homeLogo {
+  background-color: rgba(38, 38, 38, 0.803);
+  height: 35px;
+  width: 35px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.searchBar {
+  height: 40px;
+  width: 500px;
+  background-color: rgba(38, 38, 38, 0.803);
+  border-radius: 20px;
+  margin-left: 15px;
+}
+.searchBar input {
+  height: 40px;
+  width: 450px;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border: none;
+  color: white;
+  background-color: rgba(38, 38, 38, 0.803);
+  font-weight: bold;
+  font-size: larger;
+}
+.searchBar i{
+    margin-left: 10px;
+}
+.btns{
+    height: 70px;
+    width: 200px;
+    margin-right: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.btns button{
+    background-color: rgba(38, 38, 38, 0.803);
+    padding: 10px 20px;
+    border-radius: 20px;
+    color: white;
+    font-weight: bold;
+    border: none;
+    outline: none;
+
+}
+.main{
+    height: 80vh;
+    width: 100vw;
+    display: flex;
+}
+.side{
+    height: 100%;
+    width: 30vw;
+    border-radius: 25px;
+    margin-left: 20px;
+}
+.playlist{
+    height:300px;
+    width: 80%;
+    /* background-color: rgba(38, 38, 38, 0.9); */
+    padding: 10px 0 15px 15px;
+    border-radius: 20px;
+    margin-left: 20px;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+}
+.playlist div{
+    height: 250px;
+    width: 350px;
+    background-color: rgba(38, 38, 38, 0.803);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    border-radius: 20px;
+}
+.playlist div h2,h3{
+    margin-left: 20px;
+    font-weight: bolder;
+    font-size: larger;
+    color: white;
+}
+.suggestions{
+    height: 300px;
+    width: 350px;
+    background-color: rgba(38, 38, 38, 0.803);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    border-radius: 20px;
+    margin-left: 40px;
+}
+.suggestions h2,h3{
+    margin-left: 20px;
+    font-weight: bolder;
+    font-size: larger;
+    color: white;
+}
+.body{
+    height: 95%;
+    width: 67vw;
+    background-color: rgba(38, 38, 38, 0.9);
+    margin-top: 25px;
+    border-radius: 20px;
+}
+.body h2{
+    margin: 5px 0 3px 14px;
+}
+.artist,.songs{
+    height: 250px;
+    width: 97%;
+    margin: 15px;
+}
+.artist{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.art{
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    background-size: cover;
+}
+.artCard{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.art1{
+    background-image: url(./images/arijit2.jpg);
+}
+.art2{
+    background-image: url(./images/karan.jpg);
+}
+.art3{
+    background-image: url(./images/ap2.jpeg);
+}
+.art4{
+    background-image: url(./images/atif.jpg);
+}
+.art5{
+    background-image: url(./images/anirudh.webp);
+}
+.art6{
+    background-image: url(./images/arrahman2.jpg);
+}
+.songs{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.card{
+    height: 200px;
+    width: 150px;
+    border-radius: 5px;
+    background-size: cover;
+}
+.card1{
+    background-image: url(./images/ashiqui2.jpg);
+}
+.card2{
+    background-image: url(./images/diljit.jpg);
+}
+.card3{
+    background-image: url(./images/siddhu.jpg);
+}
+.card4{
+    background-image: url(./images/shubh.jpg);
+}
+.card5{
+    background-image: url(./images/weekend.jpg);
+}
+.card6{
+    background-image: url(./images/aujla.jpg);
+}
+.card h6{
+    padding-top: 140px;
+    padding-left: 10px;
+    color: white;
+    font-weight: 600;
+    font-size: larger;
+}
+.card small{
+    padding-left: 10px;
+    color: white;
+    font-weight: 400;
+}
+
+.card:hover{
+    transform: scale(1.05);
+    border: 2px solid aqua;
+}
+.art:hover{
+    transform: scale(1.04);
+    border: 2px solid aqua;
+}
+.bodyText{
+    color: whitesmoke;
+}
+.bodyText:hover{
+    transform: scale(1.01);
+    text-decoration: underline;
+}
+.card h6:hover{
+    color: aqua;
+}
+.card small:hover{
+    color: aqua;
+}
+.footer{
+    height: 8vh;
+    width: 100vw;
+    display:flex ;
+    align-items: center;
+    justify-content: center;
+    background-color:rgba(38, 38, 38, 0.9) ;
+}
